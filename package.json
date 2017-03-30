@@ -1,0 +1,16 @@
+{
+  "name": "HueJacker",
+  "version": "1.0.0",
+  "description": "Attempts to get API key from a Philips Hue",
+  "main": "index.js",
+  "scripts": {
+    "linux": "TARGET_ADDRESS=192.168.1.1 node index.js",
+	"windows": "set TARGET_ADDRESS=192.168.1.1&&node index.js"
+  },
+  "author": "ganonscrub",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^1.1.2",
+    "request": "^2.79.0"
+  }
+}
